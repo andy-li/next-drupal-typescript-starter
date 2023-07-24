@@ -113,8 +113,8 @@ devDependencies:
     specifier: ^13.4.7
     version: 13.4.7
   '@next/eslint-plugin-next':
-    specifier: ^13.4.7
-    version: 13.4.7
+    specifier: ^13.4.12
+    version: 13.4.12
   '@types/html-to-text':
     specifier: ^9.0.1
     version: 9.0.1
@@ -2977,6 +2977,12 @@ packages:
 
   /@next/env@13.4.7:
     resolution: {integrity: sha512-ZlbiFulnwiFsW9UV1ku1OvX/oyIPLtMk9p/nnvDSwI0s7vSoZdRtxXNsaO+ZXrLv/pMbXVGq4lL8TbY9iuGmVw==}
+
+  /@next/eslint-plugin-next@13.4.12:
+    resolution: {integrity: sha512-6rhK9CdxEgj/j1qvXIyLTWEaeFv7zOK8yJMulz3Owel0uek0U9MJCGzmKgYxM3aAUBo3gKeywCZKyQnJKto60A==}
+    dependencies:
+      glob: 7.1.7
+    dev: true
 
   /@next/eslint-plugin-next@13.4.7:
     resolution: {integrity: sha512-ANEPltxzXbyyG7CvqxdY4PmeM5+RyWdAJGufTHnU+LA/i3J6IDV2r8Z4onKwskwKEhwqzz5lMaSYGGXLyHX+mg==}
