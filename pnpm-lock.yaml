@@ -57,8 +57,8 @@ dependencies:
     specifier: ^0.2.0
     version: 0.2.0
   photoswipe:
-    specifier: ^5.3.7
-    version: 5.3.7
+    specifier: ^5.4.1
+    version: 5.4.1
   polished:
     specifier: ^4.2.2
     version: 4.2.2
@@ -82,7 +82,7 @@ dependencies:
     version: 2.0.2
   react-photoswipe-gallery:
     specifier: ^2.2.7
-    version: 2.2.7(photoswipe@5.3.7)(prop-types@15.8.1)(react@18.2.0)
+    version: 2.2.7(photoswipe@5.4.1)(prop-types@15.8.1)(react@18.2.0)
   react-youtube:
     specifier: ^10.1.0
     version: 10.1.0(react@18.2.0)
@@ -2599,6 +2599,7 @@ packages:
 
   /@emotion/memoize@0.7.4:
     resolution: {integrity: sha512-Ja/Vfqe3HpuzRsG1oBtWTHk2PGZ7GR+2Vz5iYGelAw8dx32K0y7PjVuxK6z1nMpZOqAFsRUPCkK1YjJ56qJlgw==}
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -6571,8 +6572,8 @@ packages:
     resolution: {integrity: sha512-XIxfHpEuSJbITd1H3EeQwpcZbTLHc+VVr8ANI9t5sit565tsI4/xK3KWTUFE2e6QiangUkh3B0jihzmGnNrRsQ==}
     dev: false
 
-  /photoswipe@5.3.7:
-    resolution: {integrity: sha512-zsyLsTTLFrj0XR1m4/hO7qNooboFKUrDy+Zt5i2d6qjFPAtBjzaj/Xtydso4uxzcXpcqbTmyxDibb3BcSISseg==}
+  /photoswipe@5.4.1:
+    resolution: {integrity: sha512-iauO0fP4oMdZvjlXzeIe8um1fZatkGE0bqdoIwpb65jlo/KK1KhfD7Z51+0YhS2tC4FOoOtE1p0c4o/HbY1s2Q==}
     engines: {node: '>= 0.12.0'}
     dev: false
 
@@ -6843,14 +6844,14 @@ packages:
     resolution: {integrity: sha512-V5BGTwGa2r+/t0A/BZMS6L7VPXY0CU8xtAhkT3XUoI1WJJhhtvulvoiZkJ5Jt9YAW23m4xFWmhQ+C5HwjtTFhQ==}
     dev: false
 
-  /react-photoswipe-gallery@2.2.7(photoswipe@5.3.7)(prop-types@15.8.1)(react@18.2.0):
+  /react-photoswipe-gallery@2.2.7(photoswipe@5.4.1)(prop-types@15.8.1)(react@18.2.0):
     resolution: {integrity: sha512-AEYNoL4/IIRosIUonn4haaFQNn1ui4vdVgAY9LHd/imVamNCkqUcyWeT6317UILp/yJI2gohsd3lWmcJEbjCag==}
     peerDependencies:
       photoswipe: '>= 5.2.2'
       prop-types: '>= 15.7.0'
       react: '>= 16.8.0'
     dependencies:
-      photoswipe: 5.3.7
+      photoswipe: 5.4.1
       prop-types: 15.8.1
       react: 18.2.0
     dev: false
